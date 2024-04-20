@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to right, grey , black);
+}
+.wenomechainsama1{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+}
+.wenomechainsama2{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+}
+.hamada{
+    grid-area: hmd;
+    border: black 1px solid;
+    width: 50%;
+}
+.mostafa{
+    grid-area: mst;
+    border: black 1px solid;
+    width: 50%;
+}
+.youssef1{
+    grid-area: ysf1;
+    border: black 1px solid;
+    width: 50%;
+}
+.youssef2{
+    grid-area: ysf2;
+    border: black 1px solid;
+    width: 50%;
+}
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: mediumseagreen;
+    overflow: hidden;
+    grid-area: top;
+}
+.topnav a {
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+  }
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+.topnav a.MAD {
+    background-color: #069B50;
+    color: white;
+  }
+
+.calculator {
+    background-color: gray;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calculator input {
+    width: 70;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.calculator .keys button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.calculator .keys button:nth-child(4) {
+    grid-column: 4 / span 2;
+}
+
+.calculator .keys button:nth-child(8) {
+    grid-column: 4 / span 2;
+}
+
+.calculator .keys button:nth-child(12) {
+    grid-column: 4 / span 2;
+}
+
+.calculator .keys button:nth-child(16) {
+    grid-column: 4 / span 2;
+}
